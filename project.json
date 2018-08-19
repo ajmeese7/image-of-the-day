@@ -1,0 +1,30 @@
+{
+    "contentrating" : "Everyone",
+    "description": "Photos of the day from various sources.",
+    "file": "index.html",
+    "general": {
+        "properties": {
+            "source" : {
+                "text" : "Photo Source",
+                "type" : "combo",
+                "value" : 1,
+                "options" :
+                [
+                    {
+                        "value" : 1,
+                        "label" : "NASA"
+                    },
+                    {
+                        "value" : 2,
+                        "label" : "National Geographic"
+                    }
+                ]
+            }
+        }
+    },
+    "preview" : "preview.jpg",
+  	"tags" : [ "Unspecified genre" ],
+  	"title" : "Images of the Day",
+  	"type" : "web",
+  	"visibility" : "public"
+}
