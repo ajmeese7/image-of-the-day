@@ -1,24 +1,12 @@
-//updateWallpaper();
-nasaParent();
-setTimeout(nasa, 3600000); // Runs every hour
+// TODO: Find a better way to regularly check for updates on all wallpapers
+//setTimeout(nasa, 3600000); // Runs every hour
 
-/*
-var source = "NASA";
-function updateWallpaper() {
-  if (source == "NASA") {
-    nasa();
-  } else if (source == "NatGeo") {
-    nationalGeographic();
-  }
-}
-*/
-
-// IDEA: Decompose into different files?
 function nasaParent() {
   var url = "https://api.nasa.gov/planetary/apod?api_key=TyZmQlFdDkH1zJXhmMDnPKZxdF3yJLL0JF8ov7ur";
   nasa(url);
 }
 
+// IDEA: Decompose further?
 function nasa(url) {
   $.ajax({
     url: url,
@@ -70,31 +58,3 @@ function nasa(url) {
     }
   });
 }
-
-function nationalGeographic() {
-  var url = "https://www.nationalgeographic.com/photography/photo-of-the-day/";
-  $.ajax({
-    url: url,
-    success: function(result) {
-      document.getElementById("container").innerHTML += result;
-    }
-  });
-}
-
-
-
-/* ################################################
-            Wallpaper Engine Interaction
-   ################################################ */
-window.wallpaperPropertyListener = {
-    applyUserProperties: function(properties) {
-        /*if (properties.source) {
-            var source = properties.source.value;
-            if (source === 1) {
-              nasa();
-            } else if (source === 2) {
-              nationalGeographic();
-            }
-        }*/
-    }
-};
