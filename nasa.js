@@ -1,6 +1,8 @@
 // TODO: Find a better way to regularly check for updates on all wallpapers
 //setTimeout(nasa, 3600000); // Runs every hour
 
+// IDEA: Separate into actual NASA image and astronomy image of day?
+// https://www.nasa.gov/multimedia/imagegallery/iotd.html
 function nasaParent() {
   var url = "https://api.nasa.gov/planetary/apod?api_key=TyZmQlFdDkH1zJXhmMDnPKZxdF3yJLL0JF8ov7ur";
   nasa(url);
