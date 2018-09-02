@@ -7,8 +7,10 @@ window.wallpaperPropertyListener = {
         if (properties.source) {
             var source = properties.source.value;
             if (source === 1) {
-              nasaParent();
+              astronomyParent();
             } else if (source === 2) {
+              nasaParent();
+            } else if (source === 3) {
               nationalGeographic();
             }
         }

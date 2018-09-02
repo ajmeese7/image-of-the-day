@@ -12,10 +12,14 @@
                 [
                     {
                         "value" : 1,
-                        "label" : "NASA"
+                        "label" : "Astronomy"
                     },
                     {
                         "value" : 2,
+                        "label" : "NASA"
+                    },
+                    {
+                        "value" : 3,
                         "label" : "National Geographic"
                     }
                 ]
