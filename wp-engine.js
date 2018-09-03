@@ -9,7 +9,7 @@ window.wallpaperPropertyListener = {
             if (source === 1) {
               astronomyParent();
             } else if (source === 2) {
-              nasaParent();
+              nasa();
             } else if (source === 3) {
               nationalGeographic();
             }
