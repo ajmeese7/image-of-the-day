@@ -3,7 +3,6 @@ function nasa() {
 
   // Get HTML from page
   $.get(url, function(res) {
-      // Loop through elements you want to scrape content from
       var gallery = $(res.html).find("#gallery-list");
       var imageOfDay = $(gallery).children(0).children(0).children(0).children(0).children(0)[0];
 
