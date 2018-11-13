@@ -12,6 +12,6 @@ function nasa() {
 
       var image = document.getElementById("image");
       image.src = source;
-      image.height = screen.height;
+      image.width = screen.width;
   });
 }

@@ -10,4 +10,4 @@ Options currently include:
 - [NASA](https://www.nasa.gov/multimedia/imagegallery/iotd.html)
 - [National Geographic](https://www.nationalgeographic.com/photography/photo-of-the-day/)
 
-Available for Wallpaper Engine on Steam [here](TODO!!!).
+Available for Wallpaper Engine on Steam [here](https://steamcommunity.com/sharedfiles/filedetails/?id=1563729818).

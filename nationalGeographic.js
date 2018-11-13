@@ -8,6 +8,6 @@ function nationalGeographic() {
 
       var image = document.getElementById("image");
       image.src = imageOfDay;
-      image.height = screen.height;
+      image.width = screen.width;
   });
 }

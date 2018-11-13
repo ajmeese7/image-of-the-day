@@ -1,34 +1,45 @@
 {
-    "contentrating" : "Everyone",
-    "description": "Photos of the day from various sources.",
-    "file": "index.html",
-    "general": {
-        "properties": {
-            "source" : {
-                "text" : "Photo Source",
-                "type" : "combo",
-                "value" : 1,
-                "options" :
-                [
-                    {
-                        "value" : 1,
-                        "label" : "Astronomy"
-                    },
-                    {
-                        "value" : 2,
-                        "label" : "NASA"
-                    },
-                    {
-                        "value" : 3,
-                        "label" : "National Geographic"
-                    }
-                ]
-            }
-        }
-    },
-    "preview" : "preview.jpg",
-  	"tags" : [ "Unspecified genre" ],
-  	"title" : "Images of the Day",
-  	"type" : "web",
-  	"visibility" : "public"
+	"workshopid": 1563729818,
+	"contentrating" : "Everyone",
+	"description" : "Photos of the day from various sources.",
+	"file" : "index.html",
+	"general" :
+	{
+		"properties" :
+		{
+			"schemecolor" :
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"source" :
+			{
+				"options" :
+				[
+					{
+						"label" : "Astronomy",
+						"value" : 1
+					},
+					{
+						"label" : "NASA",
+						"value" : 2
+					},
+					{
+						"label" : "National Geographic",
+						"value" : 3
+					}
+				],
+				"text" : "Photo Source",
+				"type" : "combo",
+				"value" : 1
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Abstract" ],
+	"title" : "Images of the Day",
+	"type" : "web",
+	"visibility" : "public"
 }
