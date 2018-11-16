@@ -9,5 +9,6 @@ function nationalGeographic() {
       var image = document.getElementById("image");
       image.src = imageOfDay;
       image.width = screen.width;
+      //image.height = screen.height;
   });
 }

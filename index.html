@@ -21,17 +21,25 @@
       }
 
       #container {
+        /*position: relative;*/
         width: 100%;
         height: 100%;
-        display: flex;
+        display: /* weird */ flex /* but ok */;
         justify-content: center;
         align-items: center;
       }
 
       #image {
+        /* For some reason here */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* through here makes the Astronomy image center and expand properly,
+           even though it was meant to make the Nat Geo center vertically */
         margin: auto;
         vertical-align: middle;
-        margin-bottom: 1em;
+        margin-bottom: 1em; /* if you take this out, Nat Geo expands vertically to fit the screen */
       }
     </style>
   </head>
